@@ -1,48 +1,48 @@
 /* add your CSS here */
 
-.main{
+.main {
 	margin-right: auto;
 	margin-left: auto;
 	width: 300px;
-	border: solid 1px #CECECE;
+	border: solid 1px #cecece;
 	padding: 20px;
 	padding-top: 5px;
-	-webkit-box-shadow: 1px 5px 5px 1px rgba(206,206,206,1);
-	-moz-box-shadow: 1px 5px 5px 1px rgba(206,206,206,1);
 	box-shadow: 1px 5px 5px 1px rgba(206,206,206,1);
 }
 
-.main h3 {
+.title {
 	font-family: sans-serif;
 	margin: 10px;
 	margin-left: 5px;
 }
 
 .description {
-	border: solid 2px #CECECE;
+	border: solid 2px #cecece;
 	padding: 10px;
 	width: 278px;
 }
 
-.description p, .description ul li{
+.fun-fact {
+	margin-top: 0;
+}
+
+.attributes {
+	padding-left: 0;
+}
+
+.fun-fact,
+.short-description, 
+.attribute {
 	font-style: italic;
 	list-style: none;
 	margin: 3px;
 }
 
-.description ul {
-	padding-left: 0;
-}
-
-.description ul li span {
+.attr-name {
 	font-weight: bold;
 }
 
-.description p:first-of-type {
-	margin-top: 0;
-}
-
-.description p:last-of-type {
+.short-description {
 	margin-bottom: 0;
 }
 
@@ -50,18 +50,14 @@
 
 .type-icon {
     display: inline-block;
-    /*width: 54px;*/
     line-height: 1;
     margin: 1px 0;
-    padding: 3px 3px;
-	font-weight: normal;
+    padding: 3px;
     background: #ccc;
-    background-image: -webkit-linear-gradient(#ddd,#bbb);
     background-image: linear-gradient(#ddd,#bbb);
     border: 1px solid #aaa;
     border-radius: 2px;
     color: #fff;
-    /*font-size: 10px;*/
     text-align: center;
     text-shadow: 1px 1px 1px #333;
     text-transform: uppercase;
@@ -69,7 +65,6 @@
 
 .type-electric {
     background: #f8d030;
-    background-image: -webkit-linear-gradient(#f8d030,#f0c108);
     background-image: linear-gradient(#f8d030,#f0c108);
     border-color: #c19b07;
 }
